@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background: linear-gradient(120deg,#89f7fe,#66a6ff);
+}
+
+
+/* Navigation */
+nav{
+    background: linear-gradient(90deg,#ff512f,#dd2476);
+    padding:20px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffff00;
+}
+
+
+/* Home page */
+.home{
+    text-align:center;
+    padding:80px;
+    color:white;
+}
+
+.home h1{
+    font-size:45px;
+}
+
+.home h2{
+    color:#ffe600;
+}
+.profile-pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+/* All boxes */
+.box{
+    background:white;
+    width:70%;
+    margin:40px auto;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+h1{
+    color:#dd2476;
+}
+
+
+/* Skills */
+li{
+    list-style:none;
+    background:#9eb5d5;
+    color:rgb(47, 9, 9);
+    padding:10px;
+    margin:10px;
+    border-radius:10px;
+}
+
+
+/* Form */
+input,textarea{
+
+    width:80%;
+    padding:15px;
+    margin:10px;
+    border-radius:10px;
+    border:2px solid #dd2476;
+}
+
+
+/* Button */
+button{
+
+    background:linear-gradient(90deg,#ff512f,#dd2476);
+    color:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:25px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+
+button:hover{
+
+    background:#000;
+}
+
+/* Social Icons */
+.social-icons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 35px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #dd2476;
+}
